@@ -184,7 +184,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=EUTONNES
 
 [Document9]
 DocumentPath=Level_Shifter.SchDoc
@@ -253,36 +253,36 @@ DocumentPath=Project Outputs for UZ_D_Voltage_3V3\Design Rule Check - UZ_D_Volta
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Rev
-Value=01
+Name=Author
+Value=A. Geiger
 
 [Parameter2]
-Name=ProjectRevision
-Value=Rev01
-
-[Parameter3]
-Name=ProjectDate
-Value=12/2024
-
-[Parameter4]
-Name=Project
-Value=UZ_D_Voltage_3V3_5V
-
-[Parameter5]
-Name=PPP
-Value=015
-
-[Parameter6]
-Name=GGG
-Value=000
-
-[Parameter7]
 Name=AuthorParam
 Value=A. Geiger
 
+[Parameter3]
+Name=GGG
+Value=000
+
+[Parameter4]
+Name=PPP
+Value=015
+
+[Parameter5]
+Name=Project
+Value=UZ_D_Voltage_3V3_5V
+
+[Parameter6]
+Name=ProjectDate
+Value=12/2024
+
+[Parameter7]
+Name=ProjectRevision
+Value=Rev01
+
 [Parameter8]
-Name=Author
-Value=A. Geiger
+Name=Rev
+Value=01
 
 [Configuration1]
 Name=Sources
