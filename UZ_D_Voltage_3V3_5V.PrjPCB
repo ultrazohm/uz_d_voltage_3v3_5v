@@ -259,8 +259,7 @@ UniqueId=71DFC42C-576D-41D2-8626-2BD91891E07E
 Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
-Variation1=Designator=R73|UniqueId=\VEDJMPQF\SVNDWSAT|Kind=1|AlternatePart=
+VariationCount=0
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -272,36 +271,36 @@ DocumentPath=Project Outputs for UZ_D_Voltage_3V3_5V\Design Rule Check - UZ_D_Vo
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Rev
-Value=02
+Name=Author
+Value=A. Geiger
 
 [Parameter2]
-Name=ProjectRevision
-Value=Rev02
-
-[Parameter3]
-Name=ProjectDate
-Value=03/2025
-
-[Parameter4]
-Name=Project
-Value=UZ_D_Voltage_3V3_5V
-
-[Parameter5]
-Name=PPP
-Value=015
-
-[Parameter6]
-Name=GGG
-Value=000
-
-[Parameter7]
 Name=AuthorParam
 Value=A. Geiger
 
+[Parameter3]
+Name=GGG
+Value=000
+
+[Parameter4]
+Name=PPP
+Value=015
+
+[Parameter5]
+Name=Project
+Value=UZ_D_Voltage_3V3_5V
+
+[Parameter6]
+Name=ProjectDate
+Value=03/2025
+
+[Parameter7]
+Name=ProjectRevision
+Value=Rev02
+
 [Parameter8]
-Name=Author
-Value=A. Geiger
+Name=Rev
+Value=02
 
 [Configuration1]
 Name=Sources
