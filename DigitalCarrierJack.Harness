@@ -3,4 +3,4 @@ DigCon_DIG_IO=DIG_IO_00,DIG_IO_01,DIG_IO_02,DIG_IO_03,DIG_IO_04,DIG_IO_05,DIG_IO
 DigCon_DIG_Res=DIG_Res_00,DIG_Res_03,DIG_Res_04,DIG_Res_05,DIG_Res_06,DIG_Res_08
 DigCon_I2C=I2C0_SCL,I2C0_SDA
 DigCon_PowerSupply=VIN,5V,3V3,GND
-DigCon_Status=SlotOE,AdapterCardOK,Collective_FLT
+DigCon_Status=SlotOE,AdapterCardOK
