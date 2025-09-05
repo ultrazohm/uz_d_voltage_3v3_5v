@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: UZ_D_Voltage_3V3_5V.PcbDoc   05.09.2025  09:56:08
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : UZ_D_Voltage_3V3_5V-RoundHoles.TXT
+ASCII SlotHoles File : UZ_D_Voltage_3V3_5V-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.2mm)                                              Round             121       PTH        28.46inch (722.95mm)
+T2      12mil (0.3mm)                                             Round             73        PTH        15.09inch (383.28mm)
+T3      16mil (0.4mm)                                             Round             1         PTH        0.00inch (0.00mm)
+T4      40mil (1.016mm)                                           Round             70        PTH        9.82inch (249.43mm)
+T5      79mil (2mm)             +/-3mil (0.076mm)                 Slot              2         NPTH       0.56inch (14.23mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              267
+
+Total Processing Time (hh:mm:ss) : 00:00:00
