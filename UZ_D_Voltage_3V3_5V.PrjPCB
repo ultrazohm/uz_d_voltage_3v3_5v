@@ -274,36 +274,36 @@ DocumentPath=Project Outputs for UZ_D_Voltage_3V3_5V\Design Rule Check - UZ_D_Vo
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Author
-Value=A. Geiger
+Name=ZC_vv
+Value=00
 
 [Parameter2]
-Name=AuthorParam
-Value=A. Geiger
+Name=ZC_PPP
+Value=015
 
 [Parameter3]
-Name=GGG
+Name=ZC_GGG
 Value=000
 
 [Parameter4]
-Name=PPP
-Value=015
+Name=ProjectRevision
+Value=03
 
 [Parameter5]
+Name=ProjectDate
+Value=06/2025
+
+[Parameter6]
 Name=Project
 Value=UZ_D_Voltage_3V3_5V
 
-[Parameter6]
-Name=ProjectDate
-Value=03/2025
-
 [Parameter7]
-Name=ProjectRevision
-Value=Rev02
+Name=AuthorParam
+Value=A. Geiger
 
 [Parameter8]
-Name=Rev
-Value=02
+Name=Author
+Value=A. Geiger
 
 [Configuration1]
 Name=Sources
@@ -1017,6 +1017,14 @@ Type148=1
 Type149=1
 Type150=1
 Type151=1
+Type152=1
+Type153=1
+Type154=1
+Type155=1
+Type156=1
+Type157=1
+Type158=1
+Type159=1
 
 [Difference Levels]
 Type1=1
@@ -1101,6 +1109,11 @@ Type79=1
 Type80=1
 Type81=1
 Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
+Type87=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1264,6 +1277,8 @@ Type158=0
 Type159=0
 Type160=0
 Type161=0
+Type162=1
+Type163=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1599,9 +1614,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=user.DbLib/Resistors - SMD
-ComponentDesignItemID0=CRCW060324K9FKEA
-ComponentSymbolReference0=Resistor
+ComponentLibraryIdentifier0=user.DbLib/Misc
+ComponentDesignItemID0=LPF-C011304S
+ComponentSymbolReference0=LPF-C011304S
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1649,26 +1664,19 @@ ParameterName14=Mounting Type
 ParameterUpdate14=1
 ParameterName15=PartID
 ParameterUpdate15=1
-ParameterName16=Stock number
+ParameterName16=Supplier 1
 ParameterUpdate16=1
-ParameterName17=Supplier 1
+ParameterName17=Supplier Part Number 1
 ParameterUpdate17=1
-ParameterName18=Supplier Part Number 1
+ParameterName18=Type
 ParameterUpdate18=1
-ParameterName19=Tolerance
+ParameterName19=Value
 ParameterUpdate19=1
-ParameterName20=Type
-ParameterUpdate20=1
-ParameterName21=Value
-ParameterUpdate21=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=RES 0603_1608
+ModelName0=LPF-C011304S
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=RES 0603_1608 NO TO
-ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
