@@ -1,0 +1,251 @@
+*************************************************************
+FileName = UZ_D_Voltage_3V3_5V.GBR
+AutoAperture = True
+*************************************************************
+Generating : Mechanical 1
+      File : UZ_D_Voltage_3V3_5V.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D66
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : UZ_D_Voltage_3V3_5V.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : UZ_D_Voltage_3V3_5V.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D36
+    D37
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : UZ_D_Voltage_3V3_5V.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : UZ_D_Voltage_3V3_5V.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D23
+    D24
+    D25
+    D29
+    D30
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : UZ_D_Voltage_3V3_5V.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : UZ_D_Voltage_3V3_5V.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : UZ_D_Voltage_3V3_5V.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D14
+    D18
+    D36
+    D37
+    D61
+    D62
+    D63
+    D64
+    D65
+*************************************************************
+
+*************************************************************
+Generating : L03
+      File : UZ_D_Voltage_3V3_5V.G2
+
+    Adding Layer      : L03
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D62
+    D63
+    D64
+    D65
+*************************************************************
+
+*************************************************************
+Generating : L02
+      File : UZ_D_Voltage_3V3_5V.G1
+
+    Adding Layer      : L02
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D62
+    D63
+    D64
+    D65
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : UZ_D_Voltage_3V3_5V.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D14
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+*************************************************************
+
