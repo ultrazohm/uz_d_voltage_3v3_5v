@@ -15,9 +15,9 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=uz_OutputJob.OutJob
 Description=
-TargetOutputMedium=Schematic+Assembly
+TargetOutputMedium=PDF_Schematic
 VariantName=Default
 VariantScope=1
 CurrentConfigurationName=
@@ -27,11 +27,11 @@ OutputMedium1=Print Job
 OutputMedium1_Type=Printer
 OutputMedium1_Printer=
 OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputMedium2=PDF_3D_View
+OutputMedium2=PDF_Schematic
 OutputMedium2_Type=Publish
-OutputMedium3=PDF_Schematic
+OutputMedium3=PDF_Assembly_Drawings
 OutputMedium3_Type=Publish
-OutputMedium4=PDF_Assembly_Drawings
+OutputMedium4=PDF_3D_View
 OutputMedium4_Type=Publish
 OutputMedium5=BOM
 OutputMedium5_Type=GeneratedFiles
@@ -45,10 +45,8 @@ OutputMedium9=JLC_Assembly
 OutputMedium9_Type=GeneratedFiles
 OutputMedium10=Manufacturing Files
 OutputMedium10_Type=GeneratedFiles
-OutputMedium11=Schematic+Assembly
-OutputMedium11_Type=Publish
-OutputMedium12=PNG_3D_View
-OutputMedium12_Type=GeneratedFiles
+OutputMedium11=PNG_3D_View
+OutputMedium11_Type=GeneratedFiles
 OutputType1=PCB 3D Print
 OutputName1=3D_View_Top
 OutputCategory1=Documentation
@@ -56,17 +54,16 @@ OutputDocumentPath1=
 OutputVariantName1=
 OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
-OutputEnabled1_OutputMedium2=1
+OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=0
-OutputEnabled1_OutputMedium4=0
+OutputEnabled1_OutputMedium4=1
 OutputEnabled1_OutputMedium5=0
 OutputEnabled1_OutputMedium6=0
 OutputEnabled1_OutputMedium7=0
 OutputEnabled1_OutputMedium8=0
 OutputEnabled1_OutputMedium9=0
 OutputEnabled1_OutputMedium10=0
-OutputEnabled1_OutputMedium11=0
-OutputEnabled1_OutputMedium12=1
+OutputEnabled1_OutputMedium11=1
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.85|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
@@ -78,17 +75,16 @@ OutputDocumentPath2=
 OutputVariantName2=
 OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
-OutputEnabled2_OutputMedium2=3
+OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=0
-OutputEnabled2_OutputMedium4=0
+OutputEnabled2_OutputMedium4=3
 OutputEnabled2_OutputMedium5=0
 OutputEnabled2_OutputMedium6=0
 OutputEnabled2_OutputMedium7=0
 OutputEnabled2_OutputMedium8=0
 OutputEnabled2_OutputMedium9=0
 OutputEnabled2_OutputMedium10=0
-OutputEnabled2_OutputMedium11=0
-OutputEnabled2_OutputMedium12=2
+OutputEnabled2_OutputMedium11=2
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.85|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration2_Name1=OutputConfigurationParameter1
@@ -100,9 +96,9 @@ OutputDocumentPath3=
 OutputVariantName3=
 OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
-OutputEnabled3_OutputMedium2=2
+OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=0
-OutputEnabled3_OutputMedium4=0
+OutputEnabled3_OutputMedium4=2
 OutputEnabled3_OutputMedium5=0
 OutputEnabled3_OutputMedium6=0
 OutputEnabled3_OutputMedium7=0
@@ -110,7 +106,6 @@ OutputEnabled3_OutputMedium8=0
 OutputEnabled3_OutputMedium9=0
 OutputEnabled3_OutputMedium10=0
 OutputEnabled3_OutputMedium11=0
-OutputEnabled3_OutputMedium12=0
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.68|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration3_Name1=OutputConfigurationParameter1
@@ -132,7 +127,6 @@ OutputEnabled4_OutputMedium8=0
 OutputEnabled4_OutputMedium9=0
 OutputEnabled4_OutputMedium10=0
 OutputEnabled4_OutputMedium11=0
-OutputEnabled4_OutputMedium12=0
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration4_Name1=OutputConfigurationParameter1
@@ -144,8 +138,8 @@ OutputDocumentPath5=[Project Physical Documents]
 OutputVariantName5=
 OutputEnabled5=1
 OutputEnabled5_OutputMedium1=0
-OutputEnabled5_OutputMedium2=0
-OutputEnabled5_OutputMedium3=1
+OutputEnabled5_OutputMedium2=1
+OutputEnabled5_OutputMedium3=0
 OutputEnabled5_OutputMedium4=0
 OutputEnabled5_OutputMedium5=0
 OutputEnabled5_OutputMedium6=0
@@ -153,8 +147,7 @@ OutputEnabled5_OutputMedium7=0
 OutputEnabled5_OutputMedium8=0
 OutputEnabled5_OutputMedium9=0
 OutputEnabled5_OutputMedium10=0
-OutputEnabled5_OutputMedium11=2
-OutputEnabled5_OutputMedium12=0
+OutputEnabled5_OutputMedium11=0
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration5_Name1=OutputConfigurationParameter1
@@ -164,19 +157,18 @@ OutputName6=Assembly Drawings
 OutputCategory6=Assembly
 OutputDocumentPath6=
 OutputVariantName6=
-OutputEnabled6=1
+OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
-OutputEnabled6_OutputMedium3=0
-OutputEnabled6_OutputMedium4=1
+OutputEnabled6_OutputMedium3=1
+OutputEnabled6_OutputMedium4=0
 OutputEnabled6_OutputMedium5=0
 OutputEnabled6_OutputMedium6=0
 OutputEnabled6_OutputMedium7=0
 OutputEnabled6_OutputMedium8=0
 OutputEnabled6_OutputMedium9=0
 OutputEnabled6_OutputMedium10=0
-OutputEnabled6_OutputMedium11=1
-OutputEnabled6_OutputMedium12=0
+OutputEnabled6_OutputMedium11=0
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.67|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration6_Name1=OutputConfigurationParameter1
@@ -231,7 +223,6 @@ OutputEnabled7_OutputMedium8=0
 OutputEnabled7_OutputMedium9=0
 OutputEnabled7_OutputMedium10=0
 OutputEnabled7_OutputMedium11=0
-OutputEnabled7_OutputMedium12=0
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration7_Name1=ColumnNameFormat
@@ -263,7 +254,6 @@ OutputEnabled8_OutputMedium8=0
 OutputEnabled8_OutputMedium9=0
 OutputEnabled8_OutputMedium10=0
 OutputEnabled8_OutputMedium11=0
-OutputEnabled8_OutputMedium12=0
 OutputDefault8=0
 Configuration8_Name1=OutputConfigurationParameter1
 Configuration8_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=False|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=0|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False
@@ -284,7 +274,6 @@ OutputEnabled9_OutputMedium8=0
 OutputEnabled9_OutputMedium9=0
 OutputEnabled9_OutputMedium10=2
 OutputEnabled9_OutputMedium11=0
-OutputEnabled9_OutputMedium12=0
 OutputDefault9=0
 Configuration9_Name1=OutputConfigurationParameter1
 Configuration9_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16777221~1,16777218~1,16777219~1,16777220~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Digital_Optical_18Tx_14Tx4Rx.PcbDoc
@@ -305,7 +294,6 @@ OutputEnabled10_OutputMedium8=0
 OutputEnabled10_OutputMedium9=0
 OutputEnabled10_OutputMedium10=1
 OutputEnabled10_OutputMedium11=0
-OutputEnabled10_OutputMedium12=0
 OutputDefault10=0
 Configuration10_Name1=OutputConfigurationParameter1
 Configuration10_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Digital_Optical_18Tx_14Tx4Rx.PcbDoc
@@ -326,7 +314,6 @@ OutputEnabled11_OutputMedium8=0
 OutputEnabled11_OutputMedium9=0
 OutputEnabled11_OutputMedium10=0
 OutputEnabled11_OutputMedium11=0
-OutputEnabled11_OutputMedium12=0
 OutputDefault11=0
 Configuration11_Name1=OutputConfigurationParameter1
 Configuration11_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=False|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=True|IncludeVariations=False|Filter=(ComponentKind = 'Standard')|FilterActive=True|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:44|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:43|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:Ascending,SortIndex:0,Position:1|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:2|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:3|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:4|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:9|Column#9=Name:Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:10|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:True,Sort:None,Position:11|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:7|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:8|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:13|Column#17=Name:MPN,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#18=Name:Emitting Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#19=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42|Column#20=Name:Peak Wavelength,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#21=Name:Supplier Part Number 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36|Column#22=Name:Created,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#23=Name:Technology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38|Column#24=Name:Luminous Intensity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#25=Name:Supplier 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#26=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39|Column#27=Name:Viewing Angle,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41|Column#28=Name:Supplier Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35|Column#29=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#30=Name:Forward Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#31=Name:Rated Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#32=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#33=Name:Supplier 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33|Column#34=Name:MF,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#35=Name:Size,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#36=Name:Supplier 3,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34|Column#37=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#38=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:15|Column#39=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#40=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#41=Name:Dielectric,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#42=Name:Published Date,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#43=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:14|Column#44=Name:Dominant Wavelength,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#45=Name:Supplier Part Number 3,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|Column#46=Name:LatestRevisionNote,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50|Column#47=Name:Foreward Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48|Column#48=Name:Wavelength,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55|Column#49=Name:Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52|Column#50=Name:Case-EIA,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45|Column#51=Name:Supply Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54|Column#52=Name:Case-Metric,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46|Column#53=Name:Data Rate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47|Column#54=Name:Max Thickness,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51|Column#55=Name:LatestRevisionDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49|Column#56=Name:Publisher,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53|Column#57=Name:fSW,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57|Column#58=Name:Case_EIA,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56|Column#59=Name:Current rated,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58|Column#60=Name:LCSC Part #,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59|DocumentPath=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Digital_Optical_18Tx_14Tx4Rx.PcbDoc
@@ -347,7 +334,6 @@ OutputEnabled12_OutputMedium8=0
 OutputEnabled12_OutputMedium9=0
 OutputEnabled12_OutputMedium10=0
 OutputEnabled12_OutputMedium11=0
-OutputEnabled12_OutputMedium12=0
 OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.78|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration12_Name1=OutputConfigurationParameter1
@@ -388,7 +374,6 @@ OutputEnabled13_OutputMedium8=0
 OutputEnabled13_OutputMedium9=0
 OutputEnabled13_OutputMedium10=0
 OutputEnabled13_OutputMedium11=0
-OutputEnabled13_OutputMedium12=0
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration13_Name1=OutputConfigurationParameter1
@@ -591,7 +576,6 @@ OutputEnabled14_OutputMedium8=1
 OutputEnabled14_OutputMedium9=1
 OutputEnabled14_OutputMedium10=4
 OutputEnabled14_OutputMedium11=0
-OutputEnabled14_OutputMedium12=0
 OutputDefault14=0
 Configuration14_Name1=OutputConfigurationParameter1
 Configuration14_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=False|ShowUnits=False|Separator=.|ExcludeFilterParam=True|IncludeVariations=False|IncludeStandardNoBOM=True|Filter=(ComponentKind = 'Standard')|FilterActive=True|YFlip=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:43|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:44|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:Ascending,SortIndex:0,Position:1|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:2|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:4|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:9|Column#9=Name:Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:10|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:11|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:3|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:7|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:8|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:13|Column#17=Name:MPN,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#18=Name:Emitting Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#19=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42|Column#20=Name:Peak Wavelength,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#21=Name:Supplier Part Number 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36|Column#22=Name:Created,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#23=Name:Technology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38|Column#24=Name:Luminous Intensity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#25=Name:Supplier 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#26=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39|Column#27=Name:Viewing Angle,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41|Column#28=Name:Supplier Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35|Column#29=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#30=Name:Forward Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#31=Name:Rated Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#32=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#33=Name:Supplier 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33|Column#34=Name:MF,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#35=Name:Size,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#36=Name:Supplier 3,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34|Column#37=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#38=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:15|Column#39=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#40=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#41=Name:Dielectric,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#42=Name:Published Date,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#43=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:14|Column#44=Name:Dominant Wavelength,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#45=Name:Supplier Part Number 3,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|Column#46=Name:LatestRevisionNote,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50|Column#47=Name:Foreward Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48|Column#48=Name:Wavelength,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55|Column#49=Name:Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52|Column#50=Name:Case-EIA,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45|Column#51=Name:Supply Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54|Column#52=Name:Case-Metric,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46|Column#53=Name:Data Rate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47|Column#54=Name:Max Thickness,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51|Column#55=Name:LatestRevisionDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49|Column#56=Name:Publisher,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53|Column#57=Name:fSW,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57|Column#58=Name:Case_EIA,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56|Column#59=Name:Current rated,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58|Column#60=Name:LCSC Part #,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59|Column#61=Name:Value2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:66|Column#62=Name:JLCSMT Rotation,Fixed:False,Metric:False,Visible:True,Sort:None,Position:62|Column#63=Name:LCSC Part # 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:63|Column#64=Name:Suppier Part Number 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:65|Column#65=Name:LCSC Part2 #,Fixed:False,Metric:False,Visible:False,Sort:None,Position:64|Column#66=Name:Iout max,Fixed:False,Metric:False,Visible:False,Sort:None,Position:61|Column#67=Name:Current rated2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60|DocumentPath=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Digital_Optical_18Tx_14Tx4Rx.PcbDoc
@@ -612,7 +596,6 @@ OutputEnabled15_OutputMedium8=0
 OutputEnabled15_OutputMedium9=2
 OutputEnabled15_OutputMedium10=3
 OutputEnabled15_OutputMedium11=0
-OutputEnabled15_OutputMedium12=0
 OutputDefault15=0
 PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4 (210 x 297 mm)|PaperIndex=9
 Configuration15_Name1=ColumnNameFormat
@@ -631,19 +614,19 @@ Configuration15_Name7=VisibleOrder_Flat
 Configuration15_Item7=Quantity=56|Comment=116|Designator=107|Manufacturer=100|Value=102|Description=99|Footprint=149|Voltage=51|Dielectric=59|Manufacturer Part Number=100|LCSC Part Number=100
 
 [PublishSettings]
-OutputFilePath2=Project Outputs for Free Documents\
+OutputFilePath2=D:\Projekte\UltraZohm\Work_Altium\uz_d_voltage_3v3_5v\Project Outputs for UZ_D_Voltage_3V3_5V\Rev03\
 ReleaseManaged2=1
 OutputBasePath2=Project Outputs for UZ_D_Voltage_3V3_5V
-OutputPathMedia2=
-OutputPathMediaValue2=
-OutputPathOutputer2=
+OutputPathMedia2==Rev+ProjectRevision
+OutputPathMediaValue2==Rev+ProjectRevision
+OutputPathOutputer2=[Output Custom]
 OutputPathOutputerPrefix2=
-OutputPathOutputerValue2=
+OutputPathOutputerValue2=DOC
 OutputFileName2=OutputJob.PDF
-OutputFileNameMulti2==OutputName
+OutputFileNameMulti2=='SCH_' + ProjectName + '_' + VariantName + '_Rev' + ProjectRevision
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
-OpenOutput2=0
+OpenOutput2=1
 PromptOverwrite2=1
 PublishMethod2=1
 ZoomLevel2=50
@@ -658,24 +641,24 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\ga92wum\git\UltraZohm\PCB\uz_d_voltage_3v3_5v\Project Outputs for UZ_D_Voltage_3V3_5V\03\
+OutputFilePath3=D:\Projekte\UltraZohm\Work_Altium\uz_d_voltage_3v3_5v\Project Outputs for UZ_D_Voltage_3V3_5V\Rev03\
 ReleaseManaged3=1
 OutputBasePath3=Project Outputs for UZ_D_Voltage_3V3_5V
 OutputPathMedia3==Rev+ProjectRevision
 OutputPathMediaValue3==Rev+ProjectRevision
-OutputPathOutputer3=
+OutputPathOutputer3=[Output Custom]
 OutputPathOutputerPrefix3=
-OutputPathOutputerValue3=
+OutputPathOutputerValue3=DOC
 OutputFileName3=OutputJob.PDF
-OutputFileNameMulti3=='SCH_' + ProjectName + '_' + VariantName + '_Rev' + ProjectRevision
+OutputFileNameMulti3=='ASM_' + ProjectName+'_'+VariantName+'_'+ProjectRevision
 UseOutputNameForMulti3=0
 OutputFileNameSpecial3=
-OpenOutput3=1
+OpenOutput3=0
 PromptOverwrite3=1
 PublishMethod3=1
 ZoomLevel3=50
-FitSCHPrintSizeToDoc3=1
-FitPCBPrintSizeToDoc3=1
+FitSCHPrintSizeToDoc3=0
+FitPCBPrintSizeToDoc3=0
 GenerateNetsInfo3=1
 MarkPins3=1
 MarkNetLabels3=1
@@ -685,24 +668,24 @@ ShowComponentParameters3=1
 GlobalBookmarks3=0
 PDFACompliance3=Disabled
 PDFVersion3=Default
-OutputFilePath4=C:\Users\ga92wum\git\UltraZohm\PCB\uz_d_voltage_3v3_5v\Project Outputs for UZ_D_Voltage_3V3_5V\03\
+OutputFilePath4=D:\Projekte\UltraZohm\Work_Altium\uz_d_voltage_3v3_5v\Project Outputs for UZ_D_Voltage_3V3_5V\
 ReleaseManaged4=1
 OutputBasePath4=Project Outputs for UZ_D_Voltage_3V3_5V
 OutputPathMedia4==Rev+ProjectRevision
 OutputPathMediaValue4==Rev+ProjectRevision
-OutputPathOutputer4=
+OutputPathOutputer4=[Output Custom]
 OutputPathOutputerPrefix4=
-OutputPathOutputerValue4=
+OutputPathOutputerValue4=DOC
 OutputFileName4=OutputJob.PDF
-OutputFileNameMulti4=='ASM_' + ProjectName+'_'+VariantName+'_'+ProjectRevision
+OutputFileNameMulti4==OutputName
 UseOutputNameForMulti4=0
 OutputFileNameSpecial4=
 OpenOutput4=0
 PromptOverwrite4=1
 PublishMethod4=1
 ZoomLevel4=50
-FitSCHPrintSizeToDoc4=0
-FitPCBPrintSizeToDoc4=0
+FitSCHPrintSizeToDoc4=1
+FitPCBPrintSizeToDoc4=1
 GenerateNetsInfo4=1
 MarkPins4=1
 MarkNetLabels4=1
@@ -712,7 +695,7 @@ ShowComponentParameters4=1
 GlobalBookmarks4=0
 PDFACompliance4=Disabled
 PDFVersion4=Default
-OutputFilePath5=C:\Users\ga92wum\git\UltraZohm\PCB\uz_d_voltage_3v3_5v\Project Outputs for UZ_D_Voltage_3V3_5V\03\
+OutputFilePath5=D:\Projekte\UltraZohm\Work_Altium\uz_d_voltage_3v3_5v\Project Outputs for UZ_D_Voltage_3V3_5V\Rev03\
 ReleaseManaged5=1
 OutputBasePath5=Project Outputs for UZ_D_Voltage_3V3_5V
 OutputPathMedia5==Rev+ProjectRevision
@@ -790,55 +773,28 @@ OutputFileNameMulti10=
 UseOutputNameForMulti10=1
 OutputFileNameSpecial10=
 OpenOutput10=0
-OutputFilePath11=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Project Outputs for Digital_Optical_18Tx_14Tx4Rx\.PDF
+OutputFilePath11=D:\Projekte\UltraZohm\Work_Altium\uz_d_voltage_3v3_5v\Project Outputs for UZ_D_Voltage_3V3_5V\Rev03\
 ReleaseManaged11=1
 OutputBasePath11=Project Outputs for UZ_D_Voltage_3V3_5V
-OutputPathMedia11=
-OutputPathMediaValue11=
-OutputPathOutputer11=[Output Type]
+OutputPathMedia11==Rev+ProjectRevision
+OutputPathMediaValue11==Rev+ProjectRevision
+OutputPathOutputer11=[Output Custom]
 OutputPathOutputerPrefix11=
-OutputPathOutputerValue11=
-OutputFileName11=OutputJob.PDF
-OutputFileNameMulti11=
-UseOutputNameForMulti11=1
+OutputPathOutputerValue11=DOC
+OutputFileName11=
+OutputFileNameMulti11==ProjectName+'_'+OutputName+'_'+ProjectRevision
+UseOutputNameForMulti11=0
 OutputFileNameSpecial11=
 OpenOutput11=1
-PromptOverwrite11=1
-PublishMethod11=0
-ZoomLevel11=50
-FitSCHPrintSizeToDoc11=1
-FitPCBPrintSizeToDoc11=1
-GenerateNetsInfo11=1
-MarkPins11=1
-MarkNetLabels11=1
-MarkPortsId11=1
-GenerateTOC11=1
-ShowComponentParameters11=1
-GlobalBookmarks11=0
-PDFACompliance11=Disabled
-PDFVersion11=Default
-OutputFilePath12=D:\Projekte\UltraZohm\Work_Altium\uz_d_voltage_3v3_5v\Project Outputs for UZ_D_Voltage_3V3_5V\Rev02\
-ReleaseManaged12=1
-OutputBasePath12=Project Outputs for UZ_D_Voltage_3V3_5V
-OutputPathMedia12==ProjectRevision
-OutputPathMediaValue12==ProjectRevision
-OutputPathOutputer12=[Output Custom]
-OutputPathOutputerPrefix12=
-OutputPathOutputerValue12=DOC
-OutputFileName12=
-OutputFileNameMulti12==ProjectName+'_'+OutputName+'_'+ProjectRevision
-UseOutputNameForMulti12=0
-OutputFileNameSpecial12=
-OpenOutput12=1
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=Project Outputs for Free Documents\
-OpenOutputs2=0
-RelativeOutputPath3=C:\Users\ga92wum\git\UltraZohm\PCB\uz_d_voltage_3v3_5v\Project Outputs for UZ_D_Voltage_3V3_5V\03\
-OpenOutputs3=1
-RelativeOutputPath4=C:\Users\ga92wum\git\UltraZohm\PCB\uz_d_voltage_3v3_5v\Project Outputs for UZ_D_Voltage_3V3_5V\03\
+RelativeOutputPath2=D:\Projekte\UltraZohm\Work_Altium\uz_d_voltage_3v3_5v\Project Outputs for UZ_D_Voltage_3V3_5V\Rev03\
+OpenOutputs2=1
+RelativeOutputPath3=D:\Projekte\UltraZohm\Work_Altium\uz_d_voltage_3v3_5v\Project Outputs for UZ_D_Voltage_3V3_5V\Rev03\
+OpenOutputs3=0
+RelativeOutputPath4=D:\Projekte\UltraZohm\Work_Altium\uz_d_voltage_3v3_5v\Project Outputs for UZ_D_Voltage_3V3_5V\
 OpenOutputs4=0
-RelativeOutputPath5=C:\Users\ga92wum\git\UltraZohm\PCB\uz_d_voltage_3v3_5v\Project Outputs for UZ_D_Voltage_3V3_5V\03\
+RelativeOutputPath5=D:\Projekte\UltraZohm\Work_Altium\uz_d_voltage_3v3_5v\Project Outputs for UZ_D_Voltage_3V3_5V\Rev03\
 OpenOutputs5=0
 AddToProject5=0
 TimestampFolder5=0
@@ -898,16 +854,14 @@ OpenGerberOutput10=0
 OpenNCDrillOutput10=0
 OpenIPCOutput10=0
 EnableReload10=0
-RelativeOutputPath11=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Project Outputs for Digital_Optical_18Tx_14Tx4Rx\.PDF
+RelativeOutputPath11=D:\Projekte\UltraZohm\Work_Altium\uz_d_voltage_3v3_5v\Project Outputs for UZ_D_Voltage_3V3_5V\Rev03\
 OpenOutputs11=1
-RelativeOutputPath12=D:\Projekte\UltraZohm\Work_Altium\uz_d_voltage_3v3_5v\Project Outputs for UZ_D_Voltage_3V3_5V\Rev02\
-OpenOutputs12=1
-AddToProject12=1
-TimestampFolder12=0
-UseOutputName12=0
-OpenODBOutput12=0
-OpenGerberOutput12=0
-OpenNCDrillOutput12=0
-OpenIPCOutput12=0
-EnableReload12=0
+AddToProject11=1
+TimestampFolder11=0
+UseOutputName11=0
+OpenODBOutput11=0
+OpenGerberOutput11=0
+OpenNCDrillOutput11=0
+OpenIPCOutput11=0
+EnableReload11=0
 
