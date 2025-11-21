@@ -257,10 +257,11 @@ DocumentUniqueId=
 [ProjectVariant1]
 UniqueId=71DFC42C-576D-41D2-8626-2BD91891E07E
 Description=10k_pulldown_IOs
-AllowFabrication=0
+AllowFabrication=1
 ParameterCount=1
 VariationCount=1
-Variation1=Designator=R1|UniqueId=\LGUSEKVC\EKPFDTKX|Kind=1|AlternatePart==Value
+AllowVariationPastMask=1
+Variation1=Designator=R1|UniqueId=\LGUSEKVC\EKPFDTKX|Kind=1|AlternatePart=
 ParamVariation1=ParameterName=Comment|VariantValue==Value
 ParamDesignator1=R1
 ParamVariationCount=1
@@ -272,10 +273,11 @@ Value=00
 [ProjectVariant2]
 UniqueId=e4db5213-fb86-4d4b-a194-744d81900325
 Description=100k_pulldown_IOs
-AllowFabrication=0
+AllowFabrication=1
 ParameterCount=1
 VariationCount=31
-Variation1=Designator=R42|UniqueId=\AZDARUGG\VKIRQWRI|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+AllowVariationPastMask=1
+Variation1=Designator=R42|UniqueId=\AZDARUGG\VKIRQWRI|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation1=ParameterName=Comment|VariantValue==Value
 ParamDesignator1=R42
 ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
@@ -318,7 +320,7 @@ ParamVariation20=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator20=R42
 ParamVariation21=ParameterName=Value|VariantValue=100k
 ParamDesignator21=R42
-Variation2=Designator=R73|UniqueId=\AZDARUGG\QNIOXNBQ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation2=Designator=R73|UniqueId=\AZDARUGG\QNIOXNBQ|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation22=ParameterName=Comment|VariantValue==Value
 ParamDesignator22=R73
 ParamVariation23=ParameterName=Component Kind|VariantValue=Standard
@@ -361,7 +363,7 @@ ParamVariation41=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator41=R73
 ParamVariation42=ParameterName=Value|VariantValue=100k
 ParamDesignator42=R73
-Variation3=Designator=R74|UniqueId=\AZDARUGG\RQRMXLEI|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation3=Designator=R74|UniqueId=\AZDARUGG\RQRMXLEI|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation43=ParameterName=Comment|VariantValue==Value
 ParamDesignator43=R74
 ParamVariation44=ParameterName=Component Kind|VariantValue=Standard
@@ -404,7 +406,7 @@ ParamVariation62=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator62=R74
 ParamVariation63=ParameterName=Value|VariantValue=100k
 ParamDesignator63=R74
-Variation4=Designator=R85|UniqueId=\AZDARUGG\LCJYHMNK|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation4=Designator=R85|UniqueId=\AZDARUGG\LCJYHMNK|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation64=ParameterName=Comment|VariantValue==Value
 ParamDesignator64=R85
 ParamVariation65=ParameterName=Component Kind|VariantValue=Standard
@@ -447,7 +449,7 @@ ParamVariation83=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator83=R85
 ParamVariation84=ParameterName=Value|VariantValue=100k
 ParamDesignator84=R85
-Variation5=Designator=R86|UniqueId=\AZDARUGG\PTNUUXBB|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation5=Designator=R86|UniqueId=\AZDARUGG\PTNUUXBB|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation85=ParameterName=Comment|VariantValue==Value
 ParamDesignator85=R86
 ParamVariation86=ParameterName=Component Kind|VariantValue=Standard
@@ -490,7 +492,7 @@ ParamVariation104=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator104=R86
 ParamVariation105=ParameterName=Value|VariantValue=100k
 ParamDesignator105=R86
-Variation6=Designator=R88|UniqueId=\AZDARUGG\TLTLVAFN|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation6=Designator=R88|UniqueId=\AZDARUGG\TLTLVAFN|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation106=ParameterName=Comment|VariantValue==Value
 ParamDesignator106=R88
 ParamVariation107=ParameterName=Component Kind|VariantValue=Standard
@@ -533,7 +535,7 @@ ParamVariation125=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator125=R88
 ParamVariation126=ParameterName=Value|VariantValue=100k
 ParamDesignator126=R88
-Variation7=Designator=R87|UniqueId=\AZDARUGG\OYGIOMAW|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation7=Designator=R87|UniqueId=\AZDARUGG\OYGIOMAW|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation127=ParameterName=Comment|VariantValue==Value
 ParamDesignator127=R87
 ParamVariation128=ParameterName=Component Kind|VariantValue=Standard
@@ -576,7 +578,7 @@ ParamVariation146=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator146=R87
 ParamVariation147=ParameterName=Value|VariantValue=100k
 ParamDesignator147=R87
-Variation8=Designator=R89|UniqueId=\AZDARUGG\JAHGZKMJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation8=Designator=R89|UniqueId=\AZDARUGG\JAHGZKMJ|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation148=ParameterName=Comment|VariantValue==Value
 ParamDesignator148=R89
 ParamVariation149=ParameterName=Component Kind|VariantValue=Standard
@@ -619,7 +621,7 @@ ParamVariation167=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator167=R89
 ParamVariation168=ParameterName=Value|VariantValue=100k
 ParamDesignator168=R89
-Variation9=Designator=R90|UniqueId=\AZDARUGG\ZIHSHHNY|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation9=Designator=R90|UniqueId=\AZDARUGG\ZIHSHHNY|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation169=ParameterName=Comment|VariantValue==Value
 ParamDesignator169=R90
 ParamVariation170=ParameterName=Component Kind|VariantValue=Standard
@@ -662,7 +664,7 @@ ParamVariation188=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator188=R90
 ParamVariation189=ParameterName=Value|VariantValue=100k
 ParamDesignator189=R90
-Variation10=Designator=R91|UniqueId=\AZDARUGG\VMYIQBTY|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation10=Designator=R91|UniqueId=\AZDARUGG\VMYIQBTY|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation190=ParameterName=Comment|VariantValue==Value
 ParamDesignator190=R91
 ParamVariation191=ParameterName=Component Kind|VariantValue=Standard
@@ -705,7 +707,7 @@ ParamVariation209=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator209=R91
 ParamVariation210=ParameterName=Value|VariantValue=100k
 ParamDesignator210=R91
-Variation11=Designator=R93|UniqueId=\AZDARUGG\CBURLYEO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation11=Designator=R93|UniqueId=\AZDARUGG\CBURLYEO|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation211=ParameterName=Comment|VariantValue==Value
 ParamDesignator211=R93
 ParamVariation212=ParameterName=Component Kind|VariantValue=Standard
@@ -748,7 +750,7 @@ ParamVariation230=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator230=R93
 ParamVariation231=ParameterName=Value|VariantValue=100k
 ParamDesignator231=R93
-Variation12=Designator=R92|UniqueId=\AZDARUGG\BBRWOMFH|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation12=Designator=R92|UniqueId=\AZDARUGG\BBRWOMFH|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation232=ParameterName=Comment|VariantValue==Value
 ParamDesignator232=R92
 ParamVariation233=ParameterName=Component Kind|VariantValue=Standard
@@ -791,7 +793,7 @@ ParamVariation251=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator251=R92
 ParamVariation252=ParameterName=Value|VariantValue=100k
 ParamDesignator252=R92
-Variation13=Designator=R94|UniqueId=\AZDARUGG\WZOCXJGL|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation13=Designator=R94|UniqueId=\AZDARUGG\WZOCXJGL|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation253=ParameterName=Comment|VariantValue==Value
 ParamDesignator253=R94
 ParamVariation254=ParameterName=Component Kind|VariantValue=Standard
@@ -834,7 +836,7 @@ ParamVariation272=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator272=R94
 ParamVariation273=ParameterName=Value|VariantValue=100k
 ParamDesignator273=R94
-Variation14=Designator=R95|UniqueId=\AZDARUGG\TOSHHJMY|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation14=Designator=R95|UniqueId=\AZDARUGG\TOSHHJMY|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation274=ParameterName=Comment|VariantValue==Value
 ParamDesignator274=R95
 ParamVariation275=ParameterName=Component Kind|VariantValue=Standard
@@ -877,7 +879,7 @@ ParamVariation293=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator293=R95
 ParamVariation294=ParameterName=Value|VariantValue=100k
 ParamDesignator294=R95
-Variation15=Designator=R96|UniqueId=\AZDARUGG\GATJRUSG|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation15=Designator=R96|UniqueId=\AZDARUGG\GATJRUSG|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation295=ParameterName=Comment|VariantValue==Value
 ParamDesignator295=R96
 ParamVariation296=ParameterName=Component Kind|VariantValue=Standard
@@ -920,7 +922,7 @@ ParamVariation314=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator314=R96
 ParamVariation315=ParameterName=Value|VariantValue=100k
 ParamDesignator315=R96
-Variation16=Designator=R98|UniqueId=\AZDARUGG\KVJCVZSH|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation16=Designator=R98|UniqueId=\AZDARUGG\KVJCVZSH|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation316=ParameterName=Comment|VariantValue==Value
 ParamDesignator316=R98
 ParamVariation317=ParameterName=Component Kind|VariantValue=Standard
@@ -963,7 +965,7 @@ ParamVariation335=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator335=R98
 ParamVariation336=ParameterName=Value|VariantValue=100k
 ParamDesignator336=R98
-Variation17=Designator=R97|UniqueId=\AZDARUGG\IFWBRMJO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation17=Designator=R97|UniqueId=\AZDARUGG\IFWBRMJO|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation337=ParameterName=Comment|VariantValue==Value
 ParamDesignator337=R97
 ParamVariation338=ParameterName=Component Kind|VariantValue=Standard
@@ -1006,7 +1008,7 @@ ParamVariation356=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator356=R97
 ParamVariation357=ParameterName=Value|VariantValue=100k
 ParamDesignator357=R97
-Variation18=Designator=R99|UniqueId=\AZDARUGG\IIKMIAVO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation18=Designator=R99|UniqueId=\AZDARUGG\IIKMIAVO|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation358=ParameterName=Comment|VariantValue==Value
 ParamDesignator358=R99
 ParamVariation359=ParameterName=Component Kind|VariantValue=Standard
@@ -1049,7 +1051,7 @@ ParamVariation377=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator377=R99
 ParamVariation378=ParameterName=Value|VariantValue=100k
 ParamDesignator378=R99
-Variation19=Designator=R100|UniqueId=\AZDARUGG\YWJMCABW|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation19=Designator=R100|UniqueId=\AZDARUGG\YWJMCABW|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation379=ParameterName=Comment|VariantValue==Value
 ParamDesignator379=R100
 ParamVariation380=ParameterName=Component Kind|VariantValue=Standard
@@ -1092,7 +1094,7 @@ ParamVariation398=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator398=R100
 ParamVariation399=ParameterName=Value|VariantValue=100k
 ParamDesignator399=R100
-Variation20=Designator=R101|UniqueId=\AZDARUGG\AQPZBTXE|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation20=Designator=R101|UniqueId=\AZDARUGG\AQPZBTXE|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation400=ParameterName=Comment|VariantValue==Value
 ParamDesignator400=R101
 ParamVariation401=ParameterName=Component Kind|VariantValue=Standard
@@ -1135,7 +1137,7 @@ ParamVariation419=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator419=R101
 ParamVariation420=ParameterName=Value|VariantValue=100k
 ParamDesignator420=R101
-Variation21=Designator=R102|UniqueId=\AZDARUGG\GBEGAPYB|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation21=Designator=R102|UniqueId=\AZDARUGG\GBEGAPYB|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation421=ParameterName=Comment|VariantValue==Value
 ParamDesignator421=R102
 ParamVariation422=ParameterName=Component Kind|VariantValue=Standard
@@ -1178,7 +1180,7 @@ ParamVariation440=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator440=R102
 ParamVariation441=ParameterName=Value|VariantValue=100k
 ParamDesignator441=R102
-Variation22=Designator=R103|UniqueId=\AZDARUGG\RCKWGWTM|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation22=Designator=R103|UniqueId=\AZDARUGG\RCKWGWTM|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation442=ParameterName=Comment|VariantValue==Value
 ParamDesignator442=R103
 ParamVariation443=ParameterName=Component Kind|VariantValue=Standard
@@ -1221,7 +1223,7 @@ ParamVariation461=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator461=R103
 ParamVariation462=ParameterName=Value|VariantValue=100k
 ParamDesignator462=R103
-Variation23=Designator=R104|UniqueId=\AZDARUGG\LVBHWIKS|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation23=Designator=R104|UniqueId=\AZDARUGG\LVBHWIKS|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation463=ParameterName=Comment|VariantValue==Value
 ParamDesignator463=R104
 ParamVariation464=ParameterName=Component Kind|VariantValue=Standard
@@ -1264,7 +1266,7 @@ ParamVariation482=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator482=R104
 ParamVariation483=ParameterName=Value|VariantValue=100k
 ParamDesignator483=R104
-Variation24=Designator=R105|UniqueId=\AZDARUGG\YENROFUY|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation24=Designator=R105|UniqueId=\AZDARUGG\YENROFUY|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation484=ParameterName=Comment|VariantValue==Value
 ParamDesignator484=R105
 ParamVariation485=ParameterName=Component Kind|VariantValue=Standard
@@ -1307,7 +1309,7 @@ ParamVariation503=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator503=R105
 ParamVariation504=ParameterName=Value|VariantValue=100k
 ParamDesignator504=R105
-Variation25=Designator=R106|UniqueId=\AZDARUGG\TZTRLCHK|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation25=Designator=R106|UniqueId=\AZDARUGG\TZTRLCHK|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation505=ParameterName=Comment|VariantValue==Value
 ParamDesignator505=R106
 ParamVariation506=ParameterName=Component Kind|VariantValue=Standard
@@ -1350,7 +1352,7 @@ ParamVariation524=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator524=R106
 ParamVariation525=ParameterName=Value|VariantValue=100k
 ParamDesignator525=R106
-Variation26=Designator=R107|UniqueId=\AZDARUGG\RMYIEGPE|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation26=Designator=R107|UniqueId=\AZDARUGG\RMYIEGPE|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation526=ParameterName=Comment|VariantValue==Value
 ParamDesignator526=R107
 ParamVariation527=ParameterName=Component Kind|VariantValue=Standard
@@ -1393,7 +1395,7 @@ ParamVariation545=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator545=R107
 ParamVariation546=ParameterName=Value|VariantValue=100k
 ParamDesignator546=R107
-Variation27=Designator=R108|UniqueId=\AZDARUGG\RGHVQMYD|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation27=Designator=R108|UniqueId=\AZDARUGG\RGHVQMYD|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation547=ParameterName=Comment|VariantValue==Value
 ParamDesignator547=R108
 ParamVariation548=ParameterName=Component Kind|VariantValue=Standard
@@ -1436,7 +1438,7 @@ ParamVariation566=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator566=R108
 ParamVariation567=ParameterName=Value|VariantValue=100k
 ParamDesignator567=R108
-Variation28=Designator=R109|UniqueId=\AZDARUGG\UYFXWTGP|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation28=Designator=R109|UniqueId=\AZDARUGG\UYFXWTGP|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation568=ParameterName=Comment|VariantValue==Value
 ParamDesignator568=R109
 ParamVariation569=ParameterName=Component Kind|VariantValue=Standard
@@ -1479,7 +1481,7 @@ ParamVariation587=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator587=R109
 ParamVariation588=ParameterName=Value|VariantValue=100k
 ParamDesignator588=R109
-Variation29=Designator=R110|UniqueId=\AZDARUGG\VICGCLMF|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation29=Designator=R110|UniqueId=\AZDARUGG\VICGCLMF|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation589=ParameterName=Comment|VariantValue==Value
 ParamDesignator589=R110
 ParamVariation590=ParameterName=Component Kind|VariantValue=Standard
@@ -1522,7 +1524,7 @@ ParamVariation608=ParameterName=Tolerance|VariantValue=1 %
 ParamDesignator608=R110
 ParamVariation609=ParameterName=Value|VariantValue=100k
 ParamDesignator609=R110
-Variation30=Designator=R111|UniqueId=\AZDARUGG\XPGKHMBJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
+Variation30=Designator=R111|UniqueId=\AZDARUGG\XPGKHMBJ|Kind=2|AlternatePart=|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/R_generic|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=UZgen_R_0603_100k|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=R_generic|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_TE|AltLibLink_IsSameFootprint=True
 ParamVariation610=ParameterName=Comment|VariantValue==Value
 ParamDesignator610=R111
 ParamVariation611=ParameterName=Component Kind|VariantValue=Standard
@@ -1566,7 +1568,9 @@ ParamDesignator629=R111
 ParamVariation630=ParameterName=Value|VariantValue=100k
 ParamDesignator630=R111
 Variation31=Designator=R1|UniqueId=\LGUSEKVC\EKPFDTKX|Kind=1|AlternatePart=
-ParamVariationCount=630
+ParamVariation631=ParameterName=Comment|VariantValue==Value
+ParamDesignator631=R1
+ParamVariationCount=631
 
 [Parameter3_1]
 Name=ZC_vv
@@ -1581,44 +1585,52 @@ DocumentPath=Project Outputs for UZ_D_Voltage_3V3_5V\Design Rule Check - UZ_D_Vo
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for UZ_D_Voltage_3V3_5V\ExportSTEP\UZ_D_Voltage_3V3_5V.step
+DocumentPath=Project Outputs for UZ_D_Voltage_3V3_5V\Rev03\Pick Place\PickPlace_UZ_D_Voltage_3V3_5V_03.csv
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for UZ_D_Voltage_3V3_5V\Rev03\DOC\UZ_D_Voltage_3V3_5V_3D_View_Bot_03.png
+DocumentPath=Project Outputs for UZ_D_Voltage_3V3_5V\ExportSTEP\UZ_D_Voltage_3V3_5V(100k_pulldown_IOs).step
 DItemRevisionGUID=
 
 [GeneratedDocument5]
+DocumentPath=Project Outputs for UZ_D_Voltage_3V3_5V\ExportSTEP\UZ_D_Voltage_3V3_5V.step
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for UZ_D_Voltage_3V3_5V\Rev03\DOC\UZ_D_Voltage_3V3_5V_3D_View_Bot_03.png
+DItemRevisionGUID=
+
+[GeneratedDocument7]
 DocumentPath=Project Outputs for UZ_D_Voltage_3V3_5V\Rev03\DOC\UZ_D_Voltage_3V3_5V_3D_View_Top_03.png
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ZC_PPP
-Value=015
+Name=Author
+Value=A. Geiger
 
 [Parameter2]
-Name=ZC_GGG
-Value=000
+Name=AuthorParam
+Value=A. Geiger
 
 [Parameter3]
-Name=ProjectRevision
-Value=03
+Name=Project
+Value=UZ_D_Voltage_3V3_5V
 
 [Parameter4]
 Name=ProjectDate
 Value=09/2025
 
 [Parameter5]
-Name=Project
-Value=UZ_D_Voltage_3V3_5V
+Name=ProjectRevision
+Value=03
 
 [Parameter6]
-Name=AuthorParam
-Value=A. Geiger
+Name=ZC_GGG
+Value=000
 
 [Parameter7]
-Name=Author
-Value=A. Geiger
+Name=ZC_PPP
+Value=015
 
 [Configuration1]
 Name=Sources
@@ -1779,6 +1791,16 @@ OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+OutputType22=SIMetrixNetlist
+OutputName22=SIMetrix
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=SIMPLISNetlist
+OutputName23=SIMPLIS
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -1790,6 +1812,16 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1898,11 +1930,6 @@ OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=Wire Bonding Table
-OutputName4=Wire Bonding Table Report
-OutputDocumentPath4=
-OutputVariantName4=[No Variations]
-OutputDefault4=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -2329,27 +2356,6 @@ Type135=1
 Type136=1
 Type137=1
 Type138=1
-Type139=1
-Type140=1
-Type141=1
-Type142=1
-Type143=1
-Type144=1
-Type145=1
-Type146=1
-Type147=1
-Type148=1
-Type149=1
-Type150=1
-Type151=1
-Type152=1
-Type153=1
-Type154=1
-Type155=1
-Type156=1
-Type157=1
-Type158=1
-Type159=1
 
 [Difference Levels]
 Type1=1
@@ -2426,19 +2432,6 @@ Type71=1
 Type72=1
 Type73=1
 Type74=1
-Type75=1
-Type76=1
-Type77=1
-Type78=1
-Type79=1
-Type80=1
-Type81=1
-Type82=1
-Type83=1
-Type84=1
-Type85=1
-Type86=1
-Type87=1
 
 [Electrical Rules Check]
 Type1=1
@@ -2594,16 +2587,6 @@ Type150=2
 Type151=2
 Type152=1
 Type153=1
-Type154=0
-Type155=0
-Type156=0
-Type157=0
-Type158=0
-Type159=0
-Type160=0
-Type161=0
-Type162=1
-Type163=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
